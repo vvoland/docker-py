@@ -4,6 +4,13 @@
 
 A Python library for the Docker Engine API. It lets you do anything the `docker` command does, but from within Python apps – run containers, manage containers, manage Swarms, etc.
 
+> [!WARNING]
+> Docker SDK for Python (`docker-py`) is not actively maintained by Docker.
+> For maintained Docker Engine API clients, Docker recommends the
+> [Go SDK](https://github.com/moby/moby/tree/master/api).
+> Developers using other languages can generate clients from the
+> [Swagger specification](https://github.com/moby/moby/blob/master/api/swagger.yaml).
+
 ## Installation
 
 The latest stable version [is available on PyPI](https://pypi.python.org/pypi/docker/). Install with pip:
